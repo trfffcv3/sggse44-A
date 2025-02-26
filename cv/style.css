@@ -1,0 +1,152 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Container */
+.container {
+    width: 60%;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+header {
+    background: #1d2b3a;
+    color: white;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    border: 3px solid white;
+}
+
+h1 {
+    font-size: 26px;
+    margin: 10px 0;
+}
+
+h2 {
+    background: #1d2b3a;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+section {
+    text-align: left;
+    padding: 20px;
+}
+
+/* Lists */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 5px 0;
+    font-size: 16px;
+}
+
+/* Contact */
+.contact a, .certifications a {
+    color: #1d2b3a;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer {
+    background: #1d2b3a;
+    color: white;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+    margin-top: 20px;
+}
+
+.certifications {
+    text-align: center;
+    margin: 20px auto;
+}
+
+#drive-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.file-card {
+    width: 200px;
+    border: 2px solid #1d2b3a;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    background: white;
+}
+
+.file-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.file-card p {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.file-card a {
+    display: inline-block;
+    padding: 8px;
+    background: #1d2b3a;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.file-card a:hover {
+    background: #ff8c00;
+}
+
+.job {
+    background: #f9f9f9; /* لون خفيف للخلفية */
+    padding: 15px; /* مسافة داخلية */
+    margin: 10px 0; /* مسافة بين كل قسم */
+    border-radius: 8px; /* حواف ناعمة */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* ظل خفيف */
+    transition: box-shadow 0.3s ease-in-out; /* تأثير عند المرور */
+}
+
+/* عند تمرير الماوس فوق القسم */
+.job:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* تأثير الظل لجميع الأقسام */
+.skills, .software, .about, .contact {
+    background: #f9f9f9; /* لون خلفية خفيف */
+    padding: 15px; /* مسافة داخلية */
+    margin: 20px 0; /* مسافة بين الأقسام */
+    border-radius: 8px; /* زوايا ناعمة */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* ظل خفيف */
+    transition: box-shadow 0.3s ease-in-out; /* تأثير ناعم */
+}
+
+/* عند تمرير الماوس فوق القسم */
+.skills:hover, .software:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* زيادة الظل */
+}
